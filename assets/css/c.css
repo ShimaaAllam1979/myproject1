@@ -1,0 +1,55 @@
+/*another way to take font if you want but i don't use it*/
+@font-face {
+  font-family: a;
+  src: url(./font/Rubik-VariableFont_wght.ttf);
+}
+
+* {
+  --cogreenlemon: #98aa28;
+  --coligreen: #a2bdaa;
+  --cogrgreen: #78847d;
+  --codgreen: #253d32;
+  --cow: #ffffff;
+  --font: "Rubik", sans-serif;
+  --font2: a, sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.texw {
+  color: var(--cow) !important;
+}
+
+.back {
+  border: 1px var(--cogreenlemon) solid !important;
+  background-color: #78847d30 !important;
+}
+
+.backlemo {
+  background-color: var(--cogreenlemon) !important;
+}
+
+.header {
+  background-image: url(../images/hero-bg.png);
+  background-size: 100% 100%;
+}
+
+.client {
+  background-color: #a2bdaa30;
+}
+
+.texg {
+  color: var(--codgreen);
+}
+
+.newletter {
+  background-image: url(../images/subscribe-bg.png);
+}
+
+.foot i {
+  color: var(--cow);
+  background-color: var(--coligreen);
+}
+
+.btn:focus {
+  box-shadow: 3px 3px 3px 3px #98aa2880 !important;
+}
